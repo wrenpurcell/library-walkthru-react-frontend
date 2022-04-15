@@ -18,7 +18,7 @@ export default function Home() {
         return (
           <div>
             <h1>{book.title}</h1>\
-            <img src={book.imageLink} alt={`${book.title} cover image`}/>
+            <img src={book.imageLink} alt={`${book.title} cover art`}/>
             </div>
         )
       })}
