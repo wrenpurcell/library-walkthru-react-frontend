@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom'
 import Home from "./components/Home";
-import OneBook from "./components/OneBook"
+// import OneBook from "./components/OneBook"
 
 function App() {
 
