@@ -17,8 +17,10 @@ export default function Home() {
              {booksData.map((book)=>{
         return (
           <div>
+           <a href={`/${book._id}`}>
             <h1>{book.title}</h1>
             <img src={book.imageLink} alt={`${book.title} cover art`}/>
+            </a>
             </div>
         )
       })}

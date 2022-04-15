@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home from "./components/Home";
-// import OneBook from "./components/OneBook"
+import OneBook from "./components/OneBook"
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
-        {/* <Route path='/:id' element={<OneBook />} />  */}
+        <Route path='/:id' element={<OneBook />} /> 
       </Routes>
     </BrowserRouter>
   );
